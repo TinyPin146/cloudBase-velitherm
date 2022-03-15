@@ -105,7 +105,3 @@ heightInput.addEventListener('input', e => {
   height = parseInt(heightInput.value);
   handleInputInInputs(relHum, airPressure, temp, height);
 });
-
-// ! Console.logs --- DELETE
-console.log(velitherm.specificHumidity());
-console.log(velitherm.tempDropWithRising(25, 1500));
