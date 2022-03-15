@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "velitherm": "^1.1.0"
+    "velitherm": "^1.1.0",
+    "type": "module"
   }
 }

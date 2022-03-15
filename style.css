@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+    background: url(./Cumulus_Clouds_Background-948.jpg);
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.wrapper {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+
+    min-width: 75vw;
+    min-height: 75vh;
+
+    background-color: rgb(10, 130, 209);
+    border: 5px rgba(105, 21, 21, 0.658) solid;
+    border-radius: 5px;
+
+}
+
+.weatherParams {
+    display: flex;
+    flex-direction: column;
+}
+.weatherParams > div {
+    border: 1px solid rgba(160, 18, 18, 0.5);
+    margin-bottom: .3rem;
+    padding: .5rem;
+}

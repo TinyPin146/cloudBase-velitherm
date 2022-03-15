@@ -11,6 +11,32 @@
 
 <body>
 
+    <div class="wrapper">
+        <div class="form-wrap">
+            <form class="weatherParams" action="./index.html" method="post">
+                <div class="inputRelHum input">
+                    <input type="number" id="relHum" min="1" max="100" value="50">
+                    <label for="relHum">Relative humidity (%)</label>
+                </div>
+                <div class="input inputPressure">
+                    <input type="number" id="pressure" min="950" max="1500" value="1013">
+                    <label for="pressure">Air pressure (hPa)</label>
+                </div>
+                <div class="input inputTemp">
+                    <input type="number" id="temp" min="-40" max="40" value="15">
+                    <label for="temp">Temperature (°C)</label>
+                </div>
+                <div>
+                    <input type="number" min="1" max="5000" id="height" value="150">
+                    <label for="height">Height (m)</label>
+                </div>
+            </form>
+        </div>
+        <div class="output-wrap">
+            <p class="output-paragraph"></p>
+        </div>
+    </div>
+
     <script src="./script.js"></script>
 </body>
 
